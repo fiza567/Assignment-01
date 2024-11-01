@@ -1,12 +1,11 @@
-import Image from "next/image";
-import Link from "next/link";
+import React from 'react'
 
-export default function Home() {
-return(
-  <div>
-    <img src="https://blog.logrocket.com/wp-content/uploads/2023/01/import-svgs-next-js-app.png " alt="sorry" />
-  </div>
-  
-)         
+const GraphicDesgin = () => {
+  return (
+    <div>
+        <h1>This is our graphic desgin page</h1>
+    </div>
+  )
+}
 
-} 
+export default GraphicDesgin 
