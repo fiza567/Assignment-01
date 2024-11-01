@@ -1,0 +1,24 @@
+import React from 'react'
+import Link from 'next/link'
+import styles from "../about/about.module.css"
+
+const AboutPage = () => {
+  return (
+    <div className={styles.container}>
+      <h1 className={styles.header}> This is about page </h1>
+      <ul> 
+      <li><Link href="/"> Go to Home Page</Link></li>
+   
+   <li><Link href="contact"> Go to Contact Page</Link></li>
+   <li><Link href="service"> Go to Service Page</Link></li>
+
+    </ul>
+
+
+
+
+    </div>
+  )
+}
+
+export default AboutPage
